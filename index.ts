@@ -4,7 +4,7 @@ import tokenRouter from './auth/token.ts'; // 根据实际路径引入
 const app = express();
 
 // 使用 token 路由
-app.use('/api', tokenRouter);
+app.use('/api/auth', tokenRouter);
 
 // 启动服务器
 const port = 3000;

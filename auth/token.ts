@@ -11,15 +11,17 @@ export const getToken: (uuid: string) => string = (uuid) => {
 
 const tokenRouter: Router = express.Router()
 
-tokenRouter.get('/getToken', function(req: Request, res: Response) {
+// app.get("/response", (_, res) => { res.json('ok') });
+
+tokenRouter.get('/getToken', (req, res): void => {
   const uuid = req.query.uuid as string;
 
   if (!uuid) {
-    return res.status(400).send('Missing uuid parameter');
+    res.status(400).send('Missing uuid parameter');
+  } else {
+    const token = getToken(uuid);
+    res.send(token);
   }
-
-  const token = getToken(uuid);
-  res.send(token);
 });
 
 export default tokenRouter
