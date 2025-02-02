@@ -707,6 +707,11 @@ pocketbase@^0.25.1:
   resolved "https://registry.npmmirror.com/pocketbase/-/pocketbase-0.25.1.tgz#e2bb606d2e39a992d9b328d67a24a9879ba7337d"
   integrity sha512-2IH0KLI/qMNR/E17C7BGWX2FxW7Tead+igLHOWZ45P56v/NyVT18Jnmddeft+3qWWGL1Hog2F8bc4orWV/+Fcg==
 
+prettier@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.npmmirror.com/prettier/-/prettier-3.4.2.tgz#a5ce1fb522a588bf2b78ca44c6e6fe5aa5a2b13f"
+  integrity sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==
+
 proxy-addr@~2.0.7:
   version "2.0.7"
   resolved "https://registry.npmmirror.com/proxy-addr/-/proxy-addr-2.0.7.tgz#f19fe69ceab311eeb94b42e70e8c2070f9ba1025"
