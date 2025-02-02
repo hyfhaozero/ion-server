@@ -1,5 +1,5 @@
 import express from 'express';
-import tokenRouter from './auth/token.ts'; // 根据实际路径引入
+import tokenRouter from './auth/token'; // 根据实际路径引入
 
 const app = express();
 

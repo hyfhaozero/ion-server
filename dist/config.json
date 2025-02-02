@@ -1,0 +1,7 @@
+{
+    "database_url": "http://127.0.0.1:8090",
+    "database_name": "users",
+    "isdev": true,
+    "db_admin_email": "hyfhao@outlook.com",
+    "db_admin_password": "Hyf123456"
+}

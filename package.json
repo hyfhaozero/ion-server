@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "express": "^4.21.2",
+    "pocketbase": "^0.25.1",
     "typescript": "^5.7.3",
     "uuid": "^11.0.5"
   },

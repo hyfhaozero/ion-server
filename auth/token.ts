@@ -1,5 +1,5 @@
-import express, { Request, Response, Router } from 'express'
-import { md5 } from '../utils/crypto.ts'
+import express, { Router } from 'express'
+import { md5 } from '../services/crypto'
 export const getToken: (uuid: string) => string = (uuid) => {
   return md5(uuid + Date.now().toString());
 };
